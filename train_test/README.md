@@ -135,14 +135,3 @@ The MLP model delivered competitive results but generally performed slightly bel
 The results demonstrate that Random Forest provides the most balanced performance for phishing URL detection. Through threshold optimization, the model achieved strong Accuracy, Recall, F1-Score, and ROC-AUC values, making it the preferred model for deployment in phishing detection systems.
 
 The study also highlights the importance of threshold tuning in cybersecurity applications, where the trade-off between Precision and Recall directly impacts detection effectiveness.
-
----
-
-## Future Work
-
-* Real-time phishing URL detection API
-* Browser extension integration
-* Explainable AI using SHAP
-* Deep learning-based URL classification
-* Ensemble voting approaches
-* Deployment using Flask or FastAPI

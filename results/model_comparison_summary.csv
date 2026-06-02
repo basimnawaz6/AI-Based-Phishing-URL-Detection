@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1,ROC AUC,Threshold,Best
+Random Forest,0.9178,0.8597,0.8498,0.8547,0.9695,0.52,Best
+XGBoost,0.907,0.85,0.8177,0.8335,0.9609,0.61,
+MLP,0.9017,0.8362,0.8141,0.825,0.9549,0.39,
