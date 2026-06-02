@@ -189,6 +189,77 @@ Threshold optimization is performed on the validation set before evaluating on t
 
 ---
 
+## Final Results
+
+The models were trained using a Train → Validation → Test workflow. Decision thresholds were optimized on the validation set and final performance was evaluated on an unseen test set.
+
+### Model Performance Comparison
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC | Optimal Threshold |
+|---------|---------|---------|---------|---------|---------|---------|
+| Random Forest | 91.78% | 85.97% | 84.98% | **85.47%** | **96.95%** | 0.52 |
+| XGBoost | 90.70% | 85.00% | 81.77% | 83.35% | 96.09% | 0.61 |
+| MLP | 90.17% | 83.62% | 81.41% | 82.50% | 95.49% | 0.39 |
+
+### Best Model
+
+🏆 **Random Forest** achieved the best overall performance and was selected as the final deployment candidate.
+
+| Metric | Value |
+|----------|----------|
+| Accuracy | 91.78% |
+| Precision | 85.97% |
+| Recall | 84.98% |
+| F1 Score | 85.47% |
+| ROC-AUC | 96.95% |
+| Optimal Threshold | 0.52 |
+
+### Performance Highlights
+
+- Highest F1 Score among all evaluated models.
+- Highest ROC-AUC score, demonstrating strong discrimination capability.
+- Balanced Precision and Recall, reducing both false positives and false negatives.
+- Validation-based threshold optimization improved classification performance over a fixed threshold approach.
+
+---
+
+## Visualizations
+
+The project automatically generates:
+
+* Model Comparison Charts
+* ROC Curves
+* Precision-Recall Curves
+* Confusion Matrices
+* Threshold Optimization Analysis
+* Feature Importance Visualization
+
+### Model Comparison
+
+![Model Comparison](results/model_comparison_bars.png)
+
+### ROC Curves
+
+![ROC Curves](results/roc_curves.png)
+
+### Precision-Recall Curves
+
+![Precision Recall Curves](results/precision_recall_curves.png)
+
+### Confusion Matrices
+
+![Confusion Matrices](results/confusion_matrices.png)
+
+### Threshold Optimization
+
+![Threshold Optimization](results/threshold_optimization.png)
+
+### Feature Importance
+
+![Feature Importance](results/feature_importance.png)
+
+---
+
 ## Visualizations
 
 The project automatically generates:
