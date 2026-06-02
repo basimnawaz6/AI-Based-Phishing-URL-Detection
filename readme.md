@@ -205,13 +205,13 @@ This experiment was used to study threshold sensitivity before implementing the 
 
 ## Key Improvements Over Previous Version
 
-✔ Proper Train / Validation / Test split
-✔ Threshold tuning performed on validation data only
-✔ Final evaluation performed on unseen test data
-✔ Class imbalance handling
-✔ Improved Random Forest configuration
-✔ Better visualization and model analysis
-✔ Reduced risk of threshold-selection bias
+* Proper Train / Validation / Test split
+* Threshold tuning performed on validation data only
+* Final evaluation performed on unseen test data
+* Class imbalance handling
+* Improved Random Forest configuration
+* Better visualization and model analysis
+* Reduced risk of threshold-selection bias
 
 ---
 
