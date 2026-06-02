@@ -36,6 +36,18 @@ Visualization & Analysis
 
 ---
 
+## Installation
+
+```bash
+git clone https://github.com/basimnawaz6/AI-Based-Phishing-URL-Detection.git
+
+cd AI_Based_Phishing_URL_Detection_System
+
+pip install -r requirements.txt
+```
+
+---
+
 ## Trained Models
 
 Trained model files are not included in this repository due to their large size.
@@ -86,7 +98,9 @@ AI_Based_Phishing_URL_Detection_System/
 │   │   ├── threshold_analysis.png
 │   │   └── README.md
 │
-└── README.md
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
@@ -203,7 +217,7 @@ The models were trained using a Train → Validation → Test workflow. Decision
 
 ### Best Model
 
-🏆 **Random Forest** achieved the best overall performance and was selected as the final deployment candidate.
+ **Random Forest** achieved the best overall performance and was selected as the final deployment candidate.
 
 | Metric | Value |
 |----------|----------|
@@ -260,18 +274,6 @@ The project automatically generates:
 
 ---
 
-## Visualizations
-
-The project automatically generates:
-
-* Model Comparison Charts
-* ROC Curves
-* Precision-Recall Curves
-* Confusion Matrices
-* Threshold Optimization Analysis
-* Feature Importance Visualization
-
----
 
 ## Previous Experiment
 
