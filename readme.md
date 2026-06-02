@@ -36,6 +36,19 @@ Visualization & Analysis
 
 ---
 
+## Trained Models
+
+Trained model files are not included in this repository due to their large size.
+
+To reproduce results:
+
+1. Download dataset
+2. Run notebook
+3. Train models
+4. Generate results
+
+---
+
 ## Repository Structure
 
 ```text
